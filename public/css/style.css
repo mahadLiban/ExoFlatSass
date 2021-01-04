@@ -1,18 +1,117 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+
+header {
+  background-color: #343534;
+}
+
 nav {
-  background-color: #12315a;
   display: flex;
-  border: solid 3px;
-  justify-content: space-around;
+}
+
+nav .logo {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  align-items: center;
+  color: white;
+}
+
+nav .lien {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex: 2;
 }
 
 nav ul {
   display: flex;
-  border: solid 1px;
-  list-style: none;
-  text-decoration: none;
-  margin-right: 20px;
 }
 
 nav ul li {
-  border: solid 1px;
+  list-style: none;
+}
+
+nav ul li a {
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.bg-header {
+  height: 50vh;
+  width: 100%;
+}
+
+.container {
+  background-color: #aca4a4;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 40px;
+}
+
+.container #surlignerColor {
+  background-color: blue;
+  color: white;
+}
+
+.container #color {
+  color: blue;
+}
+
+.container #black {
+  color: #5c5757;
+}
+
+.container1 {
+  background-color: #36df1f00;
+  display: flex;
+  margin: 0 200px;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+  border-radius: 10px;
+  background-color: #918f8f;
+  padding: 30px;
+  width: 25%;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  margin: 0 200px;
+  padding: 35px;
+  border: red 1px solid;
+}
+
+.card {
+  display: flex;
+  border: red 1px solid;
+}
+
+.h1p {
+  background-color: blue;
+  border: green 3px solid;
+}
+
+.h1p h1 {
+  padding: 0;
+}
+
+.img {
+  border: 1px solid red;
+  margin-right: 5px;
 }
