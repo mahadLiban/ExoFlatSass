@@ -76,7 +76,8 @@ nav ul li a {
 .container1 {
   background-color: #36df1f00;
   display: flex;
-  margin: 0 200px;
+  width: 85%;
+  margin: auto;
 }
 
 .background {
@@ -110,21 +111,17 @@ nav ul li a {
 
 .h1p {
   background-color: blue;
-  height: 200px;
+  width: 20%;
+  margin-right: 5px;
+}
+
+.h1p img {
   width: 100%;
 }
 
 .h1p h1 {
   padding: 0;
-}
-
-.img {
-  margin-right: 5px;
-  width: 150px;
-}
-
-.img img {
-  width: 100%;
+  margin: 0;
 }
 
 .footer {
@@ -134,6 +131,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   text-align: center;
+  color: white;
 }
 
 .center {
@@ -148,4 +146,23 @@ nav ul li a {
 
 .footerBas {
   background-color: #413e3e;
+}
+
+.btn {
+  border-radius: 5%;
+  background-color: blue;
+  color: white;
+}
+
+.h2P {
+  text-align: center;
+}
+
+.imgLogo {
+  color: blue;
+}
+
+.lesA {
+  text-align: center;
+  text-decoration: none;
 }
